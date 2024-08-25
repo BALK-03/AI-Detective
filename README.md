@@ -3,10 +3,7 @@ Project Organization
 
     ├── data
     │   │
-    │   ├── train-real.csv          <- CSV file for real training data
-    │   ├── train-fakes.csv         <- CSV file for fake training data
-    │   ├── test-real.csv           <- CSV file for real test data
-    │   └── test-fake.csv           <- CSV file for fake test data
+    │   └── data.txt                <- File containing the data source
     │
     ├── models                      <- Folder containing trained model
     │
