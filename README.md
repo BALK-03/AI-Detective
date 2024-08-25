@@ -7,6 +7,16 @@ This project aims to distinguish between AI-generated images and real ones using
 
 
 
+Model Performance
+---------------------
+- *Model's Accuracy*: 0.93
+- *Model's Precision*: 0.93
+- *Model's Recall*: 0.92
+- *Model's F1 Score*: 0.92
+
+
+
+
 Project Structure
 ---------------------
 The project is organized as follows :
