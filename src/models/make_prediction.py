@@ -78,8 +78,13 @@ def make_prediction(image_path):
 
 
 
-if __name__ == '__main__':
-    image_path = "PUT THE PATH TO THE IMAGE YOU WANT TO PREDICT HERE"
+if __name__ == "__main__":
+    if len(sys.argv) != 2:
+        print("Usage: python src/models/make_prediction.py <image_path>")
+        sys.exit(1)
+    
+    image_path = sys.argv[1]
     prediction = make_prediction(image_path)
+    
     pred_class = "Real" if prediction == 1 else "Fake"
     print(f"The predicted class label is: {pred_class}")
