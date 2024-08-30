@@ -55,7 +55,7 @@ How to Run the Project
 5. *Set up a virtual environment, python 3.11 required for package compatibility*<br>
 `py -3.11 -m venv .venv`
 6. *Activate the virtual environment*<br>
-`".venv/scripts/activate"`
+`.venv\scripts\activate`
 7. *Install project dependencies*<br>
 `pip install -r requirements.txt`
 8. *Run the model to make a prediction, replace "PATH/TO/YOUR/IMAGE.jpg" with the actual path to your image*<br>
